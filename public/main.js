@@ -1,5 +1,5 @@
 // const myServerUrl = 'https://video-customer-support-production.up.railway.app';
-const myServerUrl = 'http://wxccx-ocp-demo-production.up.railway.app:3000'; // Update this with your server URL
+const myServerUrl = 'http://wxccx-ocp-demo-production.up.railway.app'; // Update this with your server URL
 async function getAccessToken() {
     const url = myServerUrl + '/get-access-token';
     const requestOptions = {
